@@ -55,6 +55,6 @@ VOLUME [ "/bitnami/minio/data", "/certs" ]
 EXPOSE 9000 9001
 
 WORKDIR /opt/bitnami/minio-client
-USER 1001
+
 ENTRYPOINT [ "/opt/bitnami/scripts/minio/entrypoint.sh" ]
 CMD [ "/opt/bitnami/scripts/minio/run.sh" ]

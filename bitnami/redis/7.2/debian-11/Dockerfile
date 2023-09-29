@@ -53,6 +53,5 @@ ENV APP_VERSION="7.2.1" \
 
 EXPOSE 6379
 
-USER 1001
 ENTRYPOINT [ "/opt/bitnami/scripts/redis/entrypoint.sh" ]
 CMD [ "/opt/bitnami/scripts/redis/run.sh" ]
