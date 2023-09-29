@@ -52,6 +52,5 @@ ENV APP_VERSION="8.1.0" \
 
 EXPOSE 3306
 
-USER 1001
 ENTRYPOINT [ "/opt/bitnami/scripts/mysql/entrypoint.sh" ]
 CMD [ "/opt/bitnami/scripts/mysql/run.sh" ]
