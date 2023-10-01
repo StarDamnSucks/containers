@@ -52,6 +52,5 @@ ENV APP_VERSION="11.0.3" \
 
 EXPOSE 3306
 
-USER 1001
 ENTRYPOINT [ "/opt/bitnami/scripts/mariadb/entrypoint.sh" ]
 CMD [ "/opt/bitnami/scripts/mariadb/run.sh" ]
